@@ -12,6 +12,6 @@ import { routes } from './routes';
     CommonModule,
     RouterModule.forRoot(routes)
   ],
-  exports: [ RouterModule ]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
